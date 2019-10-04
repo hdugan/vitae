@@ -14,6 +14,7 @@ Provides templates and functions to simplify the production and maintenance of c
 Useful links:
 \itemize{
   \item \url{https://docs.ropensci.org/vitae/}
+  \item \url{https://github.com/ropenscilabs/vitae}
   \item Report bugs at \url{https://github.com/ropenscilabs/vitae/issues}
 }
 

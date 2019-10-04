@@ -3,6 +3,7 @@
 \name{cv_formats}
 \alias{cv_formats}
 \alias{hyndman}
+\alias{dugan}
 \alias{twentyseconds}
 \alias{awesomecv}
 \alias{moderncv}
@@ -10,6 +11,8 @@
 \title{Output formats for CVs}
 \usage{
 hyndman(...)
+
+dugan(...)
 
 twentyseconds(...)
 
