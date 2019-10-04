@@ -24,6 +24,16 @@ hyndman <- function(...) {
 
 #' @rdname cv_formats
 #' @export
+dugan <- function(...) {
+  template <- system.file("rmarkdown", "templates", "dugan",
+                          "resources", "dugantemplate.tex",
+                          package = "vitae"
+  )
+  cv_document(..., template = template, citation_package = "biblatex")
+}
+
+#' @rdname cv_formats
+#' @export
 twentyseconds <- function(...) {
   template <- system.file("rmarkdown", "templates", "twentyseconds",
     "resources", "twentysecondstemplate.tex",
